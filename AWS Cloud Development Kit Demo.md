@@ -40,6 +40,11 @@ cdk bootstrap aws://ACCOUNT-NUMBER/REGION
 hello-cdk-stack.ts
 ![[Pasted image 20221030113025.png]]
 
+取得环境变量
+``` typescript
+var bucket_name = process.env.MYBUCKET;
+```
+
 ## 部署工程
 
 ``` shell
